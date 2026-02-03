@@ -1,0 +1,13 @@
+
+- Após criar o arquivo mo.mod se rodar o comando go build, cria um arquivo chamado modulo.exe. 
+  	Pra rodar agora pode fazer ./moduloName.exe, assim exibe o conteudo dos arquivos que foram compilados
+  
+- Toda função deve começar com letra maisucula, para que seja importado em outros modulo. Se fizer com 
+  	letra minuscula só consegui importar dentro do msm modulo.
+
+- Always use the name before / of the modulo. ex:
+		go get github.com/badoux/checkmail (import checkmail).
+		import("github.com/badoux/checkmail")
+		checkmail.validateFormat("") //validar formato do email.
+	Assim vc consegue usar as functions do modulo importado.
+
