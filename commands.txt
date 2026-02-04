@@ -1,11 +1,12 @@
 - Run project Go:
-	Without go.mod: go run fileName.go
+	Without go.mod: go run fileName.go  OR   go run .
 
 - Create modulo:
 	go mod init modulo
 
 - Import external package  
-	go get PackageExternal. PS ele é add no file go.mod
+	go get PackageExternal. 
+        PS ele é add no file go.mod
 
 - Remove packge inutilizados  
     go mod tidy

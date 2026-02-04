@@ -11,3 +11,4 @@
 		checkmail.validateFormat("") //validar formato do email.
 	Assim vc consegue usar as functions do modulo importado.
 
+- Always declare variavel type string with "" never ''. With '' show the number of ASC table.
