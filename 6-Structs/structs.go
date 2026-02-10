@@ -20,7 +20,7 @@ func main() {
 	usuario.nome = "Andrei"
 	usuario.idade = 34
 	fmt.Println(usuario)
-	//Senão popula o prop fica zerado
+	//Senão popula a prop fica zerado
 
 	enderecoUser := endereco{"Rua 2", 0}
 	usuario2 := user{"May", 33, enderecoUser}
