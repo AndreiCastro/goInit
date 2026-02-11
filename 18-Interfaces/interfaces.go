@@ -5,11 +5,6 @@ import (
 	"math"
 )
 
-// interface
-type forma interface {
-	area() float64
-}
-
 // "classes"/structs
 type retangulo struct {
 	altura  float64
@@ -18,6 +13,11 @@ type retangulo struct {
 
 type circulo struct {
 	raio float64
+}
+
+// interface
+type forma interface {
+	area() float64
 }
 
 // Implementa a interface
